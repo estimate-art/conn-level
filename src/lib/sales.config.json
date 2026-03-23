@@ -1,0 +1,232 @@
+{
+  "rules": [
+    {
+      "id": "smartphones",
+      "label": "Смартфони",
+      "priority": 100,
+      "tags": [
+        "смартфон"
+      ]
+    },
+    {
+      "id": "powerbanks",
+      "label": "Павербанк",
+      "priority": 80,
+      "tags": [
+        "павербанк",
+        "умб",
+        "повербанк",
+        "powerbank",
+        "зовн акб",
+        "Портативна батарея"
+      ]
+    },
+    {
+      "id": "chargers",
+      "label": "Мзп",
+      "priority": 60,
+      "tags": [
+        "мзп",
+        "зарядний пристрій",
+        "зарядное устройство",
+        "кабель",
+        "usb cable"
+      ]
+    },
+    {
+      "id": "cases",
+      "label": "Чохол",
+      "priority": 40,
+      "tags": [
+        "чохол",
+        "case",
+        "книжка",
+        "full frosted",
+        "ремінець"
+      ]
+    },
+    {
+      "id": "glass",
+      "label": "Скло",
+      "priority": 30,
+      "tags": [
+        "скло",
+        "стекло",
+        "full glue",
+        "пленка",
+        "7777"
+      ]
+    },
+    {
+      "id": "cat_1768827471852",
+      "label": "ДУ",
+      "priority": 100,
+      "tags": [
+        "3333",
+        "поклейк",
+        "Сіточка для динаміків"
+      ]
+    },
+    {
+      "id": "cat_1768827761187",
+      "label": "DEMO",
+      "priority": 100,
+      "tags": [
+        "DEMO"
+      ]
+    },
+    {
+      "id": "cat_1768829055410",
+      "label": "Аудіо",
+      "priority": 70,
+      "tags": [
+        "колонк",
+        "наушн",
+        "навушн",
+        "гарнітура",
+        "гарнитура"
+      ]
+    },
+    {
+      "id": "cat_1768829091091",
+      "label": "Авто",
+      "priority": 30,
+      "tags": [
+        "Авто",
+        "АЗП",
+        "holder"
+      ]
+    },
+    {
+      "id": "cat_1768829142024",
+      "label": "SIM",
+      "priority": 0,
+      "tags": [
+        "half-sim",
+        "0000 карта ESIM Vodafone",
+        "1111 Київстар",
+        "power sim"
+      ]
+    },
+    {
+      "id": "cat_1768836250637",
+      "label": "Інше",
+      "priority": 40,
+      "tags": [
+        "батарейка",
+        "Карта памяті",
+        "фільтр мереж",
+        "usb flash",
+        "кардрідер"
+      ]
+    },
+    {
+      "id": "cat_1768836250638",
+      "label": "Ноутбук",
+      "priority": 90,
+      "tags": [
+        "ноутбук",
+        "macbook",
+        "laptop"
+      ]
+    },
+    {
+      "id": "cat_1770571581720",
+      "label": "Техніка",
+      "priority": 0,
+      "tags": [
+        "Годинник",
+        "мобільний телефон"
+      ]
+    }
+  ],
+  "sellers": {
+    "цюра": "Цюра",
+    "марина": "Марина",
+    "юра": "Юра",
+    "user id: 194807": "Фуршет",
+    "латаш": "Латашевич",
+    "даша": "Даша",
+    "богдан": "Богдан",
+    "денис": "Денис",
+    "наташа": "Наташа",
+    "уля": "Уля"
+  },
+  "departments": [
+    {
+      "key": "ОЛДІ",
+      "label": "Олді"
+    },
+    {
+      "key": "ФОРА",
+      "label": "Фора"
+    },
+    {
+      "key": "ФУРШЕТ",
+      "label": "Фуршет"
+    },
+    {
+      "key": "КОРОСТЕНЬ",
+      "label": "Коростень"
+    },
+    {
+      "key": "КОРОСТИШІВ",
+      "label": "Коростишів"
+    },
+    {
+      "key": "FORA",
+      "label": "Фора"
+    },
+    {
+      "key": "OLDI",
+      "label": "Олді"
+    },
+    {
+      "key": "К2",
+      "label": "К2"
+    }
+  ],
+  "tableColumns": [
+    {
+      "header": "№ Чеку",
+      "accessor": "id_label",
+      "className": "font-mono"
+    },
+    {
+      "header": "Час",
+      "accessor": "timestamp",
+      "className": "hidden md:table-cell"
+    },
+    {
+      "header": "Відділ",
+      "accessor": "department"
+    },
+    {
+      "header": "Продавець",
+      "accessor": "seller"
+    },
+    {
+      "header": "Категорія",
+      "accessor": "category"
+    },
+    {
+      "header": "Назва товару",
+      "accessor": "title"
+    },
+    {
+      "header": "Сума",
+      "accessor": "total",
+      "className": "text-right",
+      "format": "currency"
+    },
+    {
+      "header": "Клієнт",
+      "accessor": "clientName"
+    },
+    {
+      "header": "Статус",
+      "accessor": "status",
+      "className": "text-center"
+    }
+  ]
+}

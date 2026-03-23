@@ -1,0 +1,183 @@
+{
+  "last_updated": "2026-01-22T08:01:31.493Z",
+  "data": {
+    "branches": [
+      {
+        "id": 74678,
+        "name": "Vodafone Service Center"
+      },
+      {
+        "id": 113208,
+        "name": "Vodafone КОРОСТЕНЬ"
+      },
+      {
+        "id": 122189,
+        "name": "Фуршет Коростишів"
+      },
+      {
+        "id": 111612,
+        "name": "Vodafone ПАНЧІШНА"
+      },
+      {
+        "id": 113600,
+        "name": "Vodafone Коростишів"
+      },
+      {
+        "id": 124581,
+        "name": "ФОРА Житомир"
+      }
+    ],
+    "warehouses": [
+      {
+        "id": 93833,
+        "title": "CІЛЬПО Грушевського 5",
+        "is_global": false,
+        "type": "product"
+      },
+      {
+        "id": 1707230,
+        "title": "MАГАЗИН ПАНЧІШНА ФАБРИКА",
+        "is_global": false,
+        "type": "product"
+      },
+      {
+        "id": 1751888,
+        "title": "МАГАЗИН ЧЕРНЯХІВ",
+        "is_global": false,
+        "type": "product"
+      },
+      {
+        "id": 1760718,
+        "title": "MАГАЗИН КОРОСТЕНЬ",
+        "is_global": false,
+        "type": "product"
+      },
+      {
+        "id": 1771517,
+        "title": "MАГАЗИН КОРОСТИШІВ",
+        "is_global": false,
+        "type": "product"
+      },
+      {
+        "id": 2096123,
+        "title": "Фуршет Коростишів",
+        "is_global": false,
+        "type": "product"
+      },
+      {
+        "id": 2143584,
+        "title": "OLDI СКЛАД",
+        "is_global": false,
+        "type": "product"
+      },
+      {
+        "id": 2180485,
+        "title": "MАГАЗИН Фора Житомир",
+        "is_global": false,
+        "type": "product"
+      },
+      {
+        "id": 2382980,
+        "title": "ТИМЧАСОВО КОРОСТИШІВ",
+        "is_global": false,
+        "type": "product"
+      },
+      {
+        "id": 2382981,
+        "title": "ТИМЧАСОВО КОРОСТЕНЬ",
+        "is_global": false,
+        "type": "product"
+      },
+      {
+        "id": 2382982,
+        "title": "ТИМЧАСОВО SERVIS CENTR",
+        "is_global": false,
+        "type": "product"
+      },
+      {
+        "id": 2382983,
+        "title": "ТИМЧАСОВО ЧЕРНЯХІВ",
+        "is_global": false,
+        "type": "product"
+      },
+      {
+        "id": 2382986,
+        "title": "ТИМЧАСОВО ПАНЧІШКА",
+        "is_global": false,
+        "type": "product"
+      },
+      {
+        "id": 2382987,
+        "title": "TИМЧАСОВО ФОРА",
+        "is_global": false,
+        "type": "product"
+      },
+      {
+        "id": 3016324,
+        "title": "Склад МАЙСТЕРНЯ-РЕМОНТ",
+        "is_global": false,
+        "type": "product"
+      },
+      {
+        "id": 3083487,
+        "title": "Активовані телефони",
+        "is_global": false,
+        "type": "product"
+      },
+      {
+        "id": 3083491,
+        "title": "Активовані телефони",
+        "is_global": false,
+        "type": "product"
+      },
+      {
+        "id": 3083494,
+        "title": "Активовані телефони",
+        "is_global": false,
+        "type": "product"
+      },
+      {
+        "id": 3083495,
+        "title": "Активовані телефони",
+        "is_global": false,
+        "type": "product"
+      },
+      {
+        "id": 3083498,
+        "title": "Активовані телефони",
+        "is_global": false,
+        "type": "product"
+      },
+      {
+        "id": 3083499,
+        "title": "Фора Активовані телефони",
+        "is_global": false,
+        "type": "product"
+      },
+      {
+        "id": 3083684,
+        "title": "ТИМЧАСОВО СКЛАД БРАКИ",
+        "is_global": false,
+        "type": "product"
+      },
+      {
+        "id": 4846901,
+        "title": "OLDI СКЛАД",
+        "is_global": false,
+        "type": "product"
+      },
+      {
+        "id": 4846902,
+        "title": "Активовані телефони СКЛАД",
+        "is_global": false,
+        "type": "product"
+      },
+      {
+        "id": 4846903,
+        "title": "ТИМЧАСОВО СКЛАД БРАКИ",
+        "is_global": false,
+        "type": "product"
+      }
+    ]
+  }
+}
