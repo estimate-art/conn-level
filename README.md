@@ -1,3 +1,66 @@
+# LevelUp Analytics Dashboard
+
+## A client-side web app for retail analytics — import Excel reports, clean messy data, and visualize KPIs in real time. Built for field sales managers who work with multi-outlet performance data daily.
+
+Live: no backend required — everything runs in the browser.
+
+
+# Stack
+LayerTechFrameworkNext.js 14 (App Router), React, TypeScriptUIshadcn/ui, Tailwind CSS, Glassmorphism designData processingSheetJS (xlsx) — client-side Excel parsingState persistencelocalStorage (no database needed)
+
+## Key Features
+1. Retail Statistics Module
+
+Import one or multiple .xlsx report files simultaneously
+Auto column detection — finds relevant columns by keywords, not fixed positions (resilient to file structure changes)
+Row aggregation — merges split outlet rows into single objects automatically
+Multiple dashboard views: KPI cards with color-coded achievement levels, compact flex report, PrP/PoP specialized reports
+Pacing analysis — calculates required daily rate to hit monthly targets
+
+2. Sales Analytics Module
+
+Flexible column mapping parser — configured once, saved to localStorage
+Codifier system — multi-stage data cleaning pipeline:
+
+Name normalization (multiple spellings → single clean name)
+Keyword-based product classification ("case" → "Чохол")
+Smart IMEI detection (separates smartphones from accessories)
+Index grouping (final classification layer)
+
+
+Grouped analytics by employee or product category, with filtering and sorting
+
+3. SMS Generator
+
+Generates pre-filled sms: links for service numbers 150 and 640
+Real-time validation, zero backend
+
+
+# Architecture
+```src/
+├── app/
+│   ├── page.tsx              # Main router + global state
+│   └── globals.css           # CSS variables, glassmorphism theme
+└── components/layout/
+    ├── statistics-dashboard.tsx
+    ├── sales-analytics.tsx
+    ├── sms-form.tsx
+    ├── vf-view.tsx           # KPI card dashboard
+    ├── flexbox-report.tsx    # Compact all-outlets report
+    ├── prp-report.tsx
+    ├── pop-report.tsx
+    └── pacing-dialog.tsx
+```
+
+Run Locally
+bashnpm install
+npm run dev
+# Open http://localhost:9002
+
+# Why This Exists
+Standard Excel reports from retail chains are messy — outlets split across rows, inconsistent column names, different file structures per region. This tool was built to solve that specific problem: take raw, inconsistent sales data and turn it into clean, actionable dashboards without any server infrastructure.
+
+
 # Аналітична панель "LevelUp"
 
 Цей проєкт є веб-додатком, розробленим на Next.js та Tailwind CSS, який надає інструменти для аналізу даних про продуктивність роздрібних точок та аналітики продажів. Додаток дозволяє імпортувати Excel-файли, обробляти їх "на льоту" та візуалізувати дані в інтерактивному інтерфейсі.
